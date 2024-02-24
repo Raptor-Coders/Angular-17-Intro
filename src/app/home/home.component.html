@@ -1,0 +1,15 @@
+<h1>Welcome to Raptor Coders</h1>
+
+<h3>All Courses</h3>
+@defer (on immediate) {
+  @for(course of courses; track course.id) {
+    <app-course [course]="course"></app-course>
+  }
+} @loading {
+  <p>Loading...</p>
+} @error {
+  <p class="error">Error loading courses!</p>
+} @placeholder {
+  <p>Loading courses...</p>
+}
+

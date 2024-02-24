@@ -1,4 +1,4 @@
-# MeetupFeb23Angular17
+# Introduction to Angular 17 with REST API
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 
